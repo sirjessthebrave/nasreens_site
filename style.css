@@ -1,7 +1,37 @@
 .header-wrapper{
   background-color:green;
+  clear: both;
+  width: 100%;
+  overflow: auto;
 }
 
 .blue {
   color: blue;
+}
+
+h1.header-tagline {
+    display: inline;
+    float: left;
+}
+
+.logo {
+    display: inline;
+    float: left;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-image img {
+    width: 500px;
+}
+
+.bottom-image img {
+	width: 500px;
 }
